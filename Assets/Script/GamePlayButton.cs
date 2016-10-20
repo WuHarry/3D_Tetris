@@ -13,9 +13,10 @@ public class GamePlayButton : MonoBehaviour
     public Texture pause;
     public Texture mute;
     public Texture play;
+    public Texture origin;
     public Canvas pauseScene;
     public AudioSource bg_music;
-    public static bool musicMute;
+    public static bool musicMute = true;
     private Texture musicButton;
     public Camera mainCamera;
 
@@ -83,7 +84,7 @@ public class GamePlayButton : MonoBehaviour
             }
         }
         //Back to origin
-        if (GUI.Button(new Rect((Screen.width * 0.02f), (Screen.height * 0.90f), 100, 30),"O"))
+        if (GUI.Button(new Rect((Screen.width * 0.02f), (Screen.height * 0.90f), 70, 60), origin, skin.button)) 
         {
             mainCamera.transform.position = CameraControl.originPosition;
             mainCamera.transform.rotation = CameraControl.originQuaternion;
