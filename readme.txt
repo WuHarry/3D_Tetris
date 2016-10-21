@@ -1,6 +1,6 @@
 # 3D_Tetris
 
-### @Authors: Harry Wu, Jannie Liu
+### @Authors: Yahang Wu(Harry), Jingyi Liu(Jannie)
 
 #### Game play video:
 
@@ -31,10 +31,15 @@ How to play menu briefly tells you how to play the game.
 ###### PC Mode:
 
 - Arrows are used to control the horizontal movement
+
 - 'A' is used to rotate on x-axis
+
 - 'S' is used to rotate on y-axis
+
 - 'D' is used to rotate on z-axis
+
 - 'Space' is used to accelerate the falling speed of the blocks
+
 - All on screen button can be clicked by mouse
 
 #### Objects and Entities
@@ -50,6 +55,7 @@ How to play menu briefly tells you how to play the game.
 ###### MainMenu
 
 - Start Menu, Quit Menu, How to Play Menu and Setting Menu are easy to distinguish by their names.
+
 - BGM_Menu stores the BGM of the menu scene.
 
 ###### GameOver
