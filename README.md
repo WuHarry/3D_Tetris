@@ -1,6 +1,6 @@
 # 3D_Tetris
 
-### @Authors: Harry Wu, Jannie Liu
+### @Authors: Harry Wu, [Jannie Liu](https://github.com/jannieliu830)
 
 #### Game play video:
 
